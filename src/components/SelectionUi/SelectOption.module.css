@@ -1,0 +1,20 @@
+.option{
+    display: flex;
+    font-family: 'Gluten', cursive;
+    font-size: 100px;
+    background-color: teal;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+
+.option > h1:hover{
+    
+    color: red;
+}

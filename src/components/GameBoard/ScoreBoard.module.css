@@ -1,0 +1,37 @@
+.score-board{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;   
+    padding: 10px;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 12px;
+    margin: 5px;
+    background-color:rgb(247, 212, 147);    
+}
+
+
+.score-board > h2{
+    margin-top:2px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.scores > div{
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: -20px;
+    justify-content: space-between;
+    
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    cursor: pointer;
+}
+
+
+

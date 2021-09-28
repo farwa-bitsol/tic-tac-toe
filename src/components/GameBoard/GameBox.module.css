@@ -1,0 +1,19 @@
+.game-box{
+background-color: rgb(54, 54, 54);
+width:25%;
+height: 130px;
+margin: 5px;
+text-align: center;
+font-family: 'Gluten', cursive;
+}
+
+.game-box > h1{
+    color:tomato;
+    font-size: 9rem;
+    margin: auto;
+    
+}
+
+.game-box:hover{
+    background-color: rgb(100, 96, 96);
+}
